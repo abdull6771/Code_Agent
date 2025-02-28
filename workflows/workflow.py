@@ -12,7 +12,7 @@ from langchain_core.runnables.graph import MermaidDrawMethod
 import operator
 from transformers import pipeline
 # Set API key
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 
 # Initialize LLM
 llm = ChatOpenAI(model="gpt-4", temperature=0)
